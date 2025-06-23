@@ -5,10 +5,15 @@
         <!-- <tool file="/opt/galaxytools/tools/simple_tool/simple_tool.xml"/> -->
         <!-- <tool file="/opt/galaxytools/tools/gwaslab/gwas_sumstats_tool.xml"/> -->
         <!-- Interactive RStudio -->
-        <tool file="/home/ofge/Documents/icog/galaxytool/sumstats.xml"/>
-        <tool file="/home/ofge/Documents/icog/galaxytool/basic_check.xml"/>
+        <!-- Ofge's Simple Tool -->
+        <!-- <tool file="/home/ofge/Documents/icog/galaxytool/sumstats.xml"/> -->
+        <!-- <tool file="/home/ofge/Documents/icog/galaxytool/basic_check.xml"/> -->
+        
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas/load_sumstats.xml"/>
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas/basic_check.xml"/>
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas/get_leads.xml"/>
+
     </section>
 
 </toolbox>
-
 
