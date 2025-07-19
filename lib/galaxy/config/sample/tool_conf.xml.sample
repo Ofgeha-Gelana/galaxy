@@ -9,11 +9,32 @@
         <!-- <tool file="/home/ofge/Documents/icog/galaxytool/sumstats.xml"/> -->
         <!-- <tool file="/home/ofge/Documents/icog/galaxytool/basic_check.xml"/> -->
         
-        <tool file="/home/ofge/Documents/icog/galaxytool/gwas/load_sumstats.xml"/>
+        <!-- <tool file="/home/ofge/Documents/icog/galaxytool/gwas/load_sumstats.xml"/>
         <tool file="/home/ofge/Documents/icog/galaxytool/gwas/basic_check.xml"/>
-        <tool file="/home/ofge/Documents/icog/galaxytool/gwas/get_leads.xml"/>
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas/get_leads.xml"/> -->
+
+        <!-- <tool file="/home/ofge/Documents/icog/galaxytool/gwas/plot_mqq.xml"/>
+
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas/filter_locus.xml"/>
+        
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas/convert_to_beta.xml"/> 
+
+
+        <tool file="/home/ofge/Documents/icog/galaxytool/munge_sumstats/munge_sumstats.xml"/>
+        
+        <tool file="/home/ofge/Documents/icog/galaxytool/significant_snps/filter_significant_snps.xml"/> -->
+
+
+        <tool file="/home/ofge/Documents/icog/galaxytool/deepsk/munge_sumstats.xml"/> 
+
+        <tool file="/home/ofge/Documents/icog/galaxytool/significant_snps/filter_significant_snps.xml"/>
+
+        <tool file="/home/ofge/Documents/icog/galaxytool/download_normalize_vcf/download_and_normalize_vcf.xml"/>
+
+        <tool file="/home/ofge/Documents/icog/galaxytool/cojo/run_gcta_cojo.xml"/>
+
+        
 
     </section>
 
 </toolbox>
-
