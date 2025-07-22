@@ -37,4 +37,12 @@
 
     </section>
 
+    <section id="gwas_suite" name="GWAS Suite">
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas_suite/munge_sumstats.xml"/>
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas_suite/add_snp_id.xml"/>
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas_suite/filter_by_pvalue.xml"/>
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas_suite/gcta_cojo_analysis.xml"/>
+        <tool file="/home/ofge/Documents/icog/galaxytool/gwas_suite/calculate_ld_matrix.xml"/>
+    </section>
+
 </toolbox>
