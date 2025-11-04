@@ -1,5 +1,48 @@
 <?xml version='1.0' encoding='utf-8'?>
 <toolbox monitor="true">
+    <section id="gwas_suite" name="GWAS Suite">
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/munge_sumstats.xml"/>
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/add_snp_id.xml"/>
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/filter_by_pvalue.xml"/>
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/gcta_cojo_analysis.xml"/>
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxytool/gwas_suite/gcta_cojo_generic.xml"/> -->
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/co/cojopy_analysis.xml"/>  -->
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/gcta_cojo_analysis_1.xml"/> -->
+
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxytool/gwas_suite/susie_finemap.xml"/> -->
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxytool/finemapping/run_pysusie.xml"/>  -->
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/finemapping/susie_finemap.xml"/> 
+        
+
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxytool/gwas_suite/pysusie_finemap.xml"/>  -->
+        
+        
+
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxytool/gwas_suite/calculate_ld_matrix.xml"/> -->
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxytool/calculate_ld/ld_matrix.xml"/> -->
+
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/download_and_normalize_vcf.xml"/>
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/vcf_to_plink_by_pop.xml"/>
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/intersect_snps.xml"/>
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_suite/calc_ld_matrix.xml"/>
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/gwas_harmonizer.xml"/>
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxytool/harmonize/gwas_harmonizer_setup.xml"/> -->
+    </section>
+
+    <section id="Harmonizer" name="Gwas Harmonizer">
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/gwas_harmonizer_setup.xml" />
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/gwas_harmonizer.xml" /> -->
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/harmonize/gwas_sumstats_harmonizer.xml" /> -->
+        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/harmonizer_setup.xml"/>     -->
+    </section>
+
+
+<!-- 
+    <section id="Harmonizer_test" name="Gwas_harmonizer_test">
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harm_test/harmoniser_setup.xml"/>        
+    </section> -->
+
+    
   <section id="getext" name="Get Data">
     <tool file="data_source/diced.xml" />
     <tool file="data_source/upload.xml" />

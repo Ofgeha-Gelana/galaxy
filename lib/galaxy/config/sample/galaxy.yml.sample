@@ -90,7 +90,7 @@ gravity:
     # enable: true
 
     # The socket to bind. A string of the form: ``HOST``, ``HOST:PORT``, ``unix:PATH``, ``fd://FD``. An IP is a valid HOST.
-    # bind: localhost:8080
+    bind: 37.27.231.93:9095
 
     # Controls the number of Galaxy application processes Gunicorn will spawn.
     # Increased web performance can be attained by increasing this value.
@@ -3127,3 +3127,10 @@ galaxy:
   # default) if enable_failed_jobs_working_directory_cleanup is
   # ``true``. Runs in a Celery task.
   #failed_jobs_working_directory_cleanup_interval: 86400
+  
+http:
+host: 0.0.0.0
+port: 9095
+
+galaxy:
+  admin_users: ofgehagelana2019@gmail.com
