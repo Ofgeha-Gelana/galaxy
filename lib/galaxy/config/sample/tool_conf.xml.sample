@@ -30,16 +30,22 @@
     </section>
 
     <section id="Harmonizer" name="Gwas Harmonizer">
-        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/gwas_harmonizer_setup.xml" />
-        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/gwas_harmonizer.xml" /> -->
-        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/harmonize/gwas_sumstats_harmonizer.xml" /> -->
-        <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/harmonizer_setup.xml"/>     -->
+         <!-- <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/gwas_harmonizer_setup.xml" /> -->
+        <!--<tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/gwas_harmonizer.xml" />
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/test.xml" /> -->
+       <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harmonizer/harmonizer_setup.xml"/>     
+
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harm_test/harmoniser.xml" />
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harm_test/validate_ssf.xml" />
+
+        <!-- We add here the tool that converts the gzipped data -->
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harm_test/gzip_to_tabular.xml" />
     </section>
 
 
-<!-- 
-    <section id="Harmonizer_test" name="Gwas_harmonizer_test">
-        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harm_test/harmoniser_setup.xml"/>        
+
+    <!-- <section id="Harm" name="Gwas_harmonizer_test">
+        <tool file="/mnt/hdd_1/ofgeha/galaxy-gwas-tools/gwas_harm_test/harmoniser.xml"/>        
     </section> -->
 
     
